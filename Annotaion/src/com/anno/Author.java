@@ -12,6 +12,6 @@ import java.lang.annotation.Target;
 @Retention(RUNTIME)
 @Target(TYPE)
 public @interface Author {
-	String aname() default "som";
+	String aname() default "shuaib";
 	int age() default 38;
 }
